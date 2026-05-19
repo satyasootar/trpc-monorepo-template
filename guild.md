@@ -35,7 +35,7 @@ flowchart LR
     S[packages/services<br/>Business logic]
     D[packages/database<br/>Drizzle ORM + PostgreSQL]
     L[packages/logger]
-    O[/api + /docs<br/>OpenAPI + Scalar docs]
+    O["/api + /docs<br/>OpenAPI + Scalar docs"]
 
     U --> W
     W --> WS
